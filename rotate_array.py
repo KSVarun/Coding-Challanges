@@ -1,13 +1,13 @@
 # first partial sollution according to onine gfg compiler
 
 test_cases = int(input())
-array_length = 0
-array_list = []
-rotate_length = 0
-output_array = []
+#array_length = 0
+#array_list = []
+#rotate_length = 0
 
 
 def rotate_array(array_list, array_length, rotate_length):
+    output_array = []
     for j in range(rotate_length, array_length):
         output_array.append(array_list[j])
     for k in range(0, rotate_length):
@@ -17,10 +17,13 @@ def rotate_array(array_list, array_length, rotate_length):
 
 
 for i in range(test_cases):
-    array_length = int(input())
+    input_two = input()
+    input_split = input_two.split(" ")
+    array_length = int(input_split[0])
+    rotate_length = int(input_split[1])
     array_input = input()
     array_list = array_input.split(" ")
-    rotate_length = int(input())
+   # rotate_length = int(input())
     rotate_array(array_list, array_length, rotate_length)
 
 # second solution

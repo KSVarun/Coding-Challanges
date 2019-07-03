@@ -1,3 +1,17 @@
+# Example:
+# Input:
+# 2
+# 5 2
+# 1 2 3 4 5
+# 10 3
+# 2 4 6 8 10 12 14 16 18 20
+
+# Output:
+# 3 4 5 1 2
+# 8 10 12 14 16 18 20 2 4 6
+
+# Explanation :
+# Testcase 1: 1 2 3 4 5  when rotated by 2 elements, it becomes 3 4 5 1 2.
 # first partial sollution according to onine gfg compiler
 
 test_cases = int(input())

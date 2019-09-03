@@ -1,3 +1,6 @@
-a = ['hello', 'hai', 'how', 'ise', 'one']
-b = str(a[1])
-print(b[:2])
+arr = {}
+# print(arr[4])
+
+arr[3] = 4
+
+print(arr[3])
